@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Pagamento-Nutribem</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="materialize.css"/>
+        <link rel="stylesheet" href="customPagamento.css"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    </h:head>
+    <h:body>
+    
+    <div id="dadospessoais"> 
+        <h5 class="center" > Dados Pessoais </h5>
+        <hr/>
+        <form action="InfoPagamento" method="post">
+            <input type="text" class="inputsCad" name="emailC" required="" placeholder="Digite seu Email"/> 
+            <input type="text" class="inputsCad" required="" name="cpfC" placeholder="Digite seu CPF"/> 
+        <input type="text" class="inputsCad" required="" name="nomeC" placeholder="Digite seu Nome"/> 
+        <input type="text" class="inputsCad" required="" name="sobrenomeC" placeholder="Digite seu Sobrenome"/> 
+        <h5 class="center">Dados da entrega</h5>
+        <hr/>
+         
+        <input type="text"  required="" class="inputsCad" name="cepC" placeholder="Digite seu CEP" style="width:60%;"/>
+        <a href="http://www.buscacep.correios.com.br/sistemas/buscacep/" target="_blank" >Não sei meu CEP</a>
+        <input type="text" class="inputsCad" required="" name="endC" placeholder="Digite seu Endereço"/> 
+        <input type="text" class="inputsCad" required="" name="numC" placeholder="número" style="width:25%"/>
+        <input type="text" class="inputsCad" name="compleC" placeholder="Complemento" style="width:50%;"/> 
+        <input type="text" class="inputsCad"  name="bairroC" required="" placeholder="Digite seu Bairro"/>
+        <a class="waves-effect waves-light btn" id="btnFinalizar" href="BancoDoBrasil.pdf">Finalizar Pedido</a>
+        </form>
+    </div>
+    <div id="formadepagamento">
+        <form action="InfoPagamento" method="post">
+        <h5 class="center"> Formas de pagamento </h5>
+        <hr/>
+      <input type="radio" required=""/>Boleto <br/> 
+        </form>
+    <p class=""> O produto será liberado assim que for efetuado o pagamento </p>
+    <p> Pode demorar até 3 dias para ser depositado </p>
+    </div>
+   
+    </h:body>
+</html>

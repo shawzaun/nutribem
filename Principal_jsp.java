@@ -1,0 +1,278 @@
+package org.apache.jsp;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.jsp.*;
+
+public final class Principal_jsp extends org.apache.jasper.runtime.HttpJspBase
+    implements org.apache.jasper.runtime.JspSourceDependent {
+
+  private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
+
+  private static java.util.List<String> _jspx_dependants;
+
+  private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
+
+  public java.util.List<String> getDependants() {
+    return _jspx_dependants;
+  }
+
+  public void _jspService(HttpServletRequest request, HttpServletResponse response)
+        throws java.io.IOException, ServletException {
+
+    PageContext pageContext = null;
+    HttpSession session = null;
+    ServletContext application = null;
+    ServletConfig config = null;
+    JspWriter out = null;
+    Object page = this;
+    JspWriter _jspx_out = null;
+    PageContext _jspx_page_context = null;
+
+    try {
+      response.setContentType("text/html;charset=UTF-8");
+      pageContext = _jspxFactory.getPageContext(this, request, response,
+      			null, true, 8192, true);
+      _jspx_page_context = pageContext;
+      application = pageContext.getServletContext();
+      config = pageContext.getServletConfig();
+      session = pageContext.getSession();
+      out = pageContext.getOut();
+      _jspx_out = out;
+      _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
+
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("<!DOCTYPE html>\n");
+      out.write("\n");
+      out.write("<html>\n");
+      out.write("\n");
+      out.write("    <head>\n");
+      out.write("        <title> NutriBem</title>\n");
+      out.write("        <meta charset=\"UTF-8\">\n");
+      out.write("        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n");
+      out.write("        <link rel=\"stylesheet\" href=\"materialize.css\">\n");
+      out.write("        <link rel=\"stylesheet\" href=\"custom.css\"/>\n");
+      out.write("        <link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">\n");
+      out.write("    </head>\n");
+      out.write("\n");
+      out.write("    <body>\n");
+      out.write("\n");
+      out.write("        <header>\n");
+      out.write("            <div class=\" div1\">  \n");
+      out.write("            </div>\n");
+      out.write("            <section class=\"w3-content\">\n");
+      out.write("                <img class=\"mySlides\" src=\"FotoHome5.jpg\"  style=\"width:100%; height:700px;\"/>\n");
+      out.write("                <button onclick=\"plusDivs(-1)\">&#10094;</button>\n");
+      out.write("                <button class=\" w3-black w3-display-right\" onclick=\"plusDivs(1)\">&#10095;</button>\n");
+      out.write("            </section>\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("            <nav class=\"divNav  white-text\">\n");
+      out.write("                <div class=\"nav-wrapper \">\n");
+      out.write("                    <a href=\"#\" class=\"brand-logo black-text\">NutriBem</a>\n");
+      out.write("                    <ul id=\"id-nav\" class=\"right \">\n");
+      out.write("                        <li><a href=\"\">Home</a></li>\n");
+      out.write("                        <li><a href=\"\">Perfil</a></li>\n");
+      out.write("                        <li><a href=\"\">Cardápios</a></li>\n");
+      out.write("                        <li><a href=\"\">Produtos</a></li>\n");
+      out.write("                        <li><a href=\"\">Quem somos?</a></li>\n");
+      out.write("                    </ul>\n");
+      out.write("                </div>\n");
+      out.write("            </nav>\n");
+      out.write("\n");
+      out.write("            <div class=\" titulos sectionMargem2\" style=\"position:absolute; top:40%; font-size:40px;\">\n");
+      out.write("                <p class=\"titulos\">Tem problemas para encontrar<br> tudo para sua restrição?<br>Bem vindo ao NutriBem,<br> o site que concentra <br>a melhor saúde para você, com a ajuda da Amazônia.</p>\n");
+      out.write("            </div>\n");
+      out.write("\n");
+      out.write("        </header>\n");
+      out.write("\n");
+      out.write("        <br>\n");
+      out.write("        <section class=\"sectionMargem center-align\">\n");
+      out.write("            <h1 class=\"titulos center-align\" style=\"font-size:40px;\"> Como Funciona?</h1>\n");
+      out.write("            <div class=\"card-panel green\"  id=\"divComo\" class=\"green\"><p class=\"white-text comoFuncionaStyle\">Compra de produtos específicos para sua restrição.\n");
+      out.write("            <i class=\"material-icons medium red-text\">done</i></div></p>\n");
+      out.write("            <div  class=\"card-panel green\"  id=\"divComo1\" class=\"green\"><p class=\"white-text comoFuncionaStyle\">Você recebe cardápios semanais detalhado conforme seu perfil.\n");
+      out.write("            <i class=\"material-icons medium red-text\">done</i></div></p>\n");
+      out.write("            <div  class=\"card-panel green\" ><p class=\"white-text comoFuncionaStyle\">É disponivel também contato academicos e profissionais em nutrição,buscando sempre o melhor para você.\n");
+      out.write("                    <i class=\"material-icons medium red-text\">done</i><Br></div></p>\n");
+      out.write("            \n");
+      out.write("        </section>\n");
+      out.write("        <br>\n");
+      out.write("\n");
+      out.write("        <section class=\"white sectionMargem\">\n");
+      out.write("            <h1 class=\"titulos center-align\" style=\"font-size:40px;\" > Produtos</h1>\n");
+      out.write("            <div  class=\"white sectionMargem4 center-align\">\n");
+      out.write("            <div class=\"divProd1 white\">\n");
+      out.write("                    <ul>\n");
+      out.write("                        <img class=\"img-responsive\" src=\"prod1.jpg\" width=\"100%\" height=\"80%;\">  \n");
+      out.write("                    </ul>\n");
+      out.write("                     <ul>\n");
+      out.write("                        <img class=\"img-responsive\" src=\"prod1.jpg\" width=\"100%\" height=\"80%;\">  \n");
+      out.write("                    </ul>\n");
+      out.write("                    <ul>\n");
+      out.write("                        <img class=\"img-responsive\" src=\"prod4.jpg\" width=\"100%\" height=\"80%;\">  \n");
+      out.write("                    </ul>\n");
+      out.write("                   <ul>\n");
+      out.write("                        <img class=\"img-responsive\" src=\"prod3.jpg\" width=\"100%\" height=\"80%;\">  \n");
+      out.write("                        \n");
+      out.write("                        <div></div>\n");
+      out.write("                    </ul>\n");
+      out.write("                </div>\n");
+      out.write("\n");
+      out.write("        </section>\n");
+      out.write("        <br><br><br>\n");
+      out.write("        <section class=\"sectionMargem white\">\n");
+      out.write("            <h1 class=\"titulos center-align\" style=\"font-size:40px;\" >Cardápios</h1>\n");
+      out.write("            <div  class=\"white sectionMargem4 center-align\">\n");
+      out.write("                <div class=\"divProd2 white\">\n");
+      out.write("                        <ul>\n");
+      out.write("                            <img class=\"img-responsive\" src=\"seg.png\" width=\"90%\" height=\"70%;\">  \n");
+      out.write("                            <div></div>\n");
+      out.write("                        </ul>\n");
+      out.write("                        <ul>\n");
+      out.write("                            <img class=\"img-responsive\" src=\"ter.png\" width=\"90%\" height=\"70%;\">  \n");
+      out.write("                            <div></div>\n");
+      out.write("                        </ul>\n");
+      out.write("                        <ul>\n");
+      out.write("                            <img class=\"img-responsive\" src=\"qua.png\" width=\"90%\" height=\"70%;\">  \n");
+      out.write("                            <div></div>\n");
+      out.write("                        </ul>\n");
+      out.write("                        <ul>\n");
+      out.write("                            <img class=\"img-responsive\" src=\"qui.png\" width=\"90%\" height=\"70%;\">  \n");
+      out.write("                            <div></div>\n");
+      out.write("                        </ul>\n");
+      out.write("                        <ul>\n");
+      out.write("                            <img class=\"img-responsive\" src=\"sex.png\" width=\"90%\" height=\"70%;\">  \n");
+      out.write("                            <div></div>\n");
+      out.write("                        </ul>\n");
+      out.write("                        <ul>\n");
+      out.write("                            <img class=\"img-responsive\" src=\"sab2.png\" width=\"90%\" height=\"70%;\">  \n");
+      out.write("                            <div></div>\n");
+      out.write("                        </ul>\n");
+      out.write("                    </div>\n");
+      out.write("            </div>\n");
+      out.write("        </section>\n");
+      out.write("        <br><br><br>\n");
+      out.write("        \n");
+      out.write("        <section class=\"white sectionMargem\">\n");
+      out.write("            <h1 class=\"titulos center-align\" style=\"font-size:40px;\" > Pratos</h1>\n");
+      out.write("            <div  class=\"white sectionMargem4 center-align\">\n");
+      out.write("            <div class=\"divProd1 white\">\n");
+      out.write("                    <ul>\n");
+      out.write("                        <img class=\"img-responsive\" src=\"prato5.jpg\" width=\"90%\" height=\"70%;\">  \n");
+      out.write("                        \n");
+      out.write("                        <div></div>\n");
+      out.write("                    </ul>\n");
+      out.write("                    <ul>\n");
+      out.write("                        <img class=\"img-responsive\" src=\"prato2.jpg\" width=\"90%\" height=\"70%;\">  \n");
+      out.write("                        \n");
+      out.write("                        <div></div>\n");
+      out.write("                    </ul>\n");
+      out.write("                    <ul>\n");
+      out.write("                        <img class=\"img-responsive\" src=\"prato3.jpg\" width=\"90%\" height=\"70%;\">  \n");
+      out.write("                        \n");
+      out.write("                        <div></div>\n");
+      out.write("                    </ul>\n");
+      out.write("                    <ul>\n");
+      out.write("                        <img class=\"img-responsive\" src=\"prato2.jpg\" width=\"90%\" height=\"70%;\">  \n");
+      out.write("                        \n");
+      out.write("                        <div></div>\n");
+      out.write("                    </ul>\n");
+      out.write("                </div>\n");
+      out.write("\n");
+      out.write("        </section>\n");
+      out.write("        <br><br><br>\n");
+      out.write("\n");
+      out.write("        \n");
+      out.write("        \n");
+      out.write("         <div class=\"parallax-container\">\n");
+      out.write("            <div class=\"parallax\"><img src=\"TelaFundo.jpg\"></div>\n");
+      out.write("        </div>\n");
+      out.write("        <div class=\"section white\">\n");
+      out.write("            <div class=\"row container\">\n");
+      out.write("                <h2 class=\"header\" style=\"font-size:40px;\" class=\"center-align titulos\">Você sabe ler rótulos?</h2>\n");
+      out.write("                <img class=\"img-responsive\" src=\"rotulosHome.jpg\" width=\"60%\" height=\"60%;\">\n");
+      out.write("                <h5>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>\n");
+      out.write("                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>\n");
+      out.write("                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>\n");
+      out.write("                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>\n");
+      out.write("                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>\n");
+      out.write("                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br></h5>\n");
+      out.write("                <a class=\"btn right\">Detalhes</a>\n");
+      out.write("            </div>\n");
+      out.write("            </div>\n");
+      out.write("            <div class=\"parallax-container\">\n");
+      out.write("                <div class=\"parallax\"><img src=\"TelaFundo.jpg\"></div>\n");
+      out.write("            </div>\n");
+      out.write("        \n");
+      out.write("        \n");
+      out.write("        \n");
+      out.write("       \n");
+      out.write("    \n");
+      out.write("        <br><br><br>\n");
+      out.write("\n");
+      out.write("        <div id=\"divQuemsomos3\" class=\"  black-text \"> \n");
+      out.write("            <p> Todos os direitos reservados     ----</p>\n");
+      out.write("        </div>\n");
+      out.write("\n");
+      out.write("        <script>\n");
+      out.write("            var myIndex = 0;\n");
+      out.write("            carousel();\n");
+      out.write("\n");
+      out.write("            function carousel() {\n");
+      out.write("                var i;\n");
+      out.write("                var x = document.getElementsByClassName(\"mySlides\");\n");
+      out.write("                for (i = 0; i < x.length; i++) {\n");
+      out.write("                    x[i].style.display = \"none\";\n");
+      out.write("                }\n");
+      out.write("                myIndex++;\n");
+      out.write("                if (myIndex > x.length) {\n");
+      out.write("                    myIndex = 1\n");
+      out.write("                }\n");
+      out.write("                x[myIndex - 1].style.display = \"block\";\n");
+      out.write("                setTimeout(carousel, 6000); // Change image every 2 seconds\n");
+      out.write("            }\n");
+      out.write("\n");
+      out.write("        </script>\n");
+      out.write("\n");
+      out.write("        <script>\n");
+      out.write("            var slideIndex = 1;\n");
+      out.write("            showDivs(slideIndex);\n");
+      out.write("\n");
+      out.write("            function plusDivs(n) {\n");
+      out.write("                showDivs(slideIndex += n);\n");
+      out.write("            }\n");
+      out.write("\n");
+      out.write("            function showDivs(n) {\n");
+      out.write("                var i;\n");
+      out.write("                var x = document.getElementsByClassName(\"mySlides\");\n");
+      out.write("                if (n > x.length) {\n");
+      out.write("                    slideIndex = 1\n");
+      out.write("                }\n");
+      out.write("                if (n < 1) {\n");
+      out.write("                    slideIndex = x.length\n");
+      out.write("                }\n");
+      out.write("                for (i = 0; i < x.length; i++) {\n");
+      out.write("                    x[i].style.display = \"none\";\n");
+      out.write("                }\n");
+      out.write("                x[slideIndex - 1].style.display = \"block\";\n");
+      out.write("            }\n");
+      out.write("        </script>\n");
+      out.write("    </body>\n");
+      out.write("</html>");
+    } catch (Throwable t) {
+      if (!(t instanceof SkipPageException)){
+        out = _jspx_out;
+        if (out != null && out.getBufferSize() != 0)
+          out.clearBuffer();
+        if (_jspx_page_context != null) _jspx_page_context.handlePageException(t);
+        else throw new ServletException(t);
+      }
+    } finally {
+      _jspxFactory.releasePageContext(_jspx_page_context);
+    }
+  }
+}

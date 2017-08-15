@@ -1,0 +1,113 @@
+html{
+    background-image:url("https://s-media-cache-ak0.pinimg.com/736x/4e/4e/94/4e4e944d6a244ed8eea1a28d1aa3daf0.jpg") ;
+}
+#resumoPedido{
+    position: absolute;
+    height: 70%;
+    width: 16%;
+    left: 15%;
+ 
+}
+#dadospessoais{
+     position: absolute;
+    height: 70%;
+    width: 16%;
+    left: 28%;
+}
+#formadepagamento{
+     position: absolute;
+    height: 70%;
+    width: 16%;
+    left: 55%;
+   
+}
+#subtotal{
+    position: absolute;
+    font-size: 150%;
+    top:7%;
+}
+#subtotalvalor{
+    position: absolute;
+    float: right;
+    font-size: 130%;
+    top:7%;
+}
+#frete{
+    position: absolute;
+    font-size: 150%;
+    top: 19%;
+}
+#fretevalor{
+    position: absolute;
+    font-size: 130%;
+    top: 20%;
+    left: 73%;
+}
+
+#total{
+    position: absolute;
+    font-size: 150%;
+    top: 33%;
+}
+
+#totalvalor{
+    position: absolute;
+    font-size: 130%;
+    left: 74%;
+    top: 33%;
+}
+#miniaturaProduto{
+    position: absolute;
+    width: 35%;
+    top: 47%;
+    height: 20%;
+    left: 0%;
+}
+#descricaoMiniatura{
+    position: absolute;
+    left: 40%;
+    top: 45%;
+    font-size: 115%;
+}
+#descricaoMiniatura1{
+    position: absolute;
+    left: 40%;
+    top: 53%;
+    font-size: 115%;
+    color: gray;
+}
+#qtd1{
+    position: absolute;
+    top: 74%;
+    left: 80%;
+    width: 10%;
+}
+#qtd{
+    position: absolute;
+    top: 74%;
+    left: 40%;
+    
+}
+
+#btnFinalizar{
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    left: 170%;
+       background-color: #81c784;
+}
+
+input.inputsCad {
+    border: 1px solid;
+    border-radius: 30px;
+    border-color: dimgray;
+    padding: 2px 10px;
+    margin: 10px;
+    font-size: 16px;
+    transition: .25s;
+    margin-left: 0px;
+    color: black;
+    height: 4%;
+    width: 90%;
+    
+}

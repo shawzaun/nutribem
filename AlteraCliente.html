@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Alterar Cliente -- Adm</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="custom.css">
+        <link rel="stylesheet" href="materialize.css">
+        <link rel="stylesheet" href="customAlteraClie.css">
+        <link rel="stylesheet" href="customCadastro.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="div1"></div>
+        <form name="frAlterarProd" method="post" action="AlterarCliente">
+            <div><b><h4>Alterar Cliente -- Adm</h4><br></b></div>
+            <div class="row s2 " >
+                <div class="input-field col s4  " id="cadAlt">
+                    
+                    <p class="titulos ">Nome: </p>
+                    <input name="alteranomec" class="inputsAlt" type="text" required><br>
+                    <p class="titulos black-text">Senha: </p>
+                    <input name="alterasenhac" class="inputsAlt" type="text" required><br>
+                    <p class="titulos black-text">Restricao: </p>
+                    <input name="alterarestricaoc" class="inputsAlt" type="text"><br>
+                    <p class="titulos black-text">Sobrenome: </p>
+                    <input name="alterasbnmc" class="inputsAlt" type="text" required><br>
+                    <p class="titulos black-text">Email: </p>
+                    <input name="alteraemailc" class="inputsAlt" type="text" required><br>
+                    <input type="submit" class="waves-effect waves-light btn" value="Alterar">
+                </div>
+            </div>
+        </form>
+
+    </body>
+</html>

@@ -1,0 +1,59 @@
+html{
+    background-image:url("https://s-media-cache-ak0.pinimg.com/736x/4e/4e/94/4e4e944d6a244ed8eea1a28d1aa3daf0.jpg");
+}
+
+#titulodapaginadecadastro {
+    font-size: 300%;
+    color: black;
+    text-align: center;
+}
+#cad {
+    position: absolute;
+    height: 100%;
+    left: 30%;
+}
+.titulos {
+    font-size: 16px;
+    font-family: "Arial";
+    font-weight: bold;
+    color: black;
+    margin: 0%;
+}
+input.inputsCad {
+    border: 1px solid;
+    border-radius: 15px;
+    border-color: dimgray;
+    padding: 2px 10px;
+    margin: 10px;
+    font-size: 16px;
+    transition: .25s;
+    margin-left: 0px;
+    color: black;
+    
+}
+#cad3 {
+    position: absolute;
+    height: 100%;
+    right: 30%;
+    width: 20%;
+}
+#btnCad {
+    left: 24%;
+    top: 55%;
+    position: absolute;
+}
+#radios{
+    position: absolute;
+    top: 74%;
+    left: 30.8%;
+    width: 18%;
+}
+#titradios{
+    font-size: 110%;
+    position: absolute;
+    top:  67%;
+    left: 30.8%;
+}
+.div1{
+    background-color: black;
+}
